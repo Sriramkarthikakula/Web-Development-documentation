@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
+<style>
+ button {
+          border-radius:20px;
+          background-color:orange;
+          color:green;
+}
+</style>
+</head>
+<body style="background-color:dodgerblue;">
 <h3>So you wanna sign up </h3>
 <h4> click the button below</h4>
-<input type = "submit" name = "submit" value = "clickhere">
+<button type ="submit">"clickhere"</button>
 </body>
 </html>
+

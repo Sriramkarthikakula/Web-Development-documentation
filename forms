@@ -1,8 +1,23 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h3>So you wanna sign up </h3>
-<h4> click the button below</h4>
-<input type = "submit" name = "submit" value = "clickhere">
+<head>
+<style>
+ button { 
+          margin-top:25px;
+          margin-right:100px;
+          margin-bottom:200px;
+          margin-left:710px;
+          border-radius:20px;
+          background-color:orange;
+          color:green;
+}
+</style>
+</head>
+<body style="background-color:dodgerblue;">
+<h1 style= "text-align :center;">So you wanna sign up </h1>
+<h2 style="text-align:center;"> click the button below</h2>
+<button type ="submit">"clickhere"</button>
 </body>
 </html>
+
+

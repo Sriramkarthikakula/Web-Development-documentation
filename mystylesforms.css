@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    font-size: x-large;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border: 5px solid rgb(160, 98, 98);
+    border-radius: 50%;
+    padding: 5px;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    background-image: url("./images/newback.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}

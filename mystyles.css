@@ -1,0 +1,22 @@
+h2 {
+    background-color:tomato;
+}
+div {
+    background-color:#00ff00;
+}
+h1 {
+    background-color:dodgerblue;
+}
+
+button { 
+          margin-top:25px;
+          margin-right:100px;
+          margin-bottom:200px;
+          margin-left:710px;
+          border-radius:20px;
+          background-color:rgb(230, 27, 95);
+          color:aqua;
+}
+
+h1 { text-align: center;}
+

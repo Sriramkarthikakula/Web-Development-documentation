@@ -14,7 +14,7 @@ h1 { text-align: center;}
 }
 div { 
     border-radius: 10px;
-    background-color:white;
+    background:linear-gradient(35deg,#CCFFFF,#FFCCCC);
 }
 
 
@@ -26,7 +26,7 @@ button {
 }
 body{
     text-align: center;
-    background-color: rgba(245, 245, 218, 0.692);
+    background:linear-gradient(35deg,#CCFFFF,#FFCCCC);
 }
 
 

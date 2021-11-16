@@ -8,15 +8,38 @@ h1 {
     background-color:dodgerblue;
 }
 
-button { 
-          margin-top:25px;
-          margin-right:100px;
-          margin-bottom:200px;
-          margin-left:710px;
-          border-radius:20px;
-          background-color:rgb(230, 27, 95);
-          color:aqua;
-}
+
 
 h1 { text-align: center;}
+
+.head {
+    font-family:Lobster;
+    background-color: rgba(204, 6, 253, 0.863);
+    border-radius: 10px;
+}
+.mar {
+    margin-left: 10px;
+}
+div { 
+    border-radius: 10px;
+    background-color:rgba(0, 238, 255, 0.568);
+}
+h1 { 
+    border-radius: 10px;
+    background-color:lime;
+}
+
+button { 
+      margin-top:25px;
+      margin-right:100px;
+      margin-bottom:200px;
+      margin-left:710px;
+      border-radius:20px;
+      background-color:orange;
+      color:green;
+}
+body{
+    text-align: center;
+    background-color: rgba(245, 245, 218, 0.692);
+}
 

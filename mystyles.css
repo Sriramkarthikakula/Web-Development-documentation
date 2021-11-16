@@ -1,14 +1,6 @@
 h2 {
     background-color:tomato;
 }
-div {
-    background-color:#00ff00;
-}
-h1 {
-    background-color:dodgerblue;
-}
-
-
 
 h1 { text-align: center;}
 
@@ -24,16 +16,10 @@ div {
     border-radius: 10px;
     background-color:rgba(0, 238, 255, 0.568);
 }
-h1 { 
-    border-radius: 10px;
-    background-color:lime;
-}
+
 
 button { 
-      margin-top:25px;
-      margin-right:100px;
-      margin-bottom:200px;
-      margin-left:710px;
+      text-align: center;
       border-radius:20px;
       background-color:orange;
       color:green;
@@ -41,5 +27,44 @@ button {
 body{
     text-align: center;
     background-color: rgba(245, 245, 218, 0.692);
+}
+
+
+ul {
+    margin: 0;
+    padding: 10px 10px 10px 100px;
+    display: flex;
+    background: black;
+}
+
+ul li {
+    list-style: none;
+    padding: 10px 20px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color:silver;
+    position: relative;
+
+}
+
+ul li a::before {
+    content: "";
+    width: 0px;
+    height: 10px;
+    background:gold;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: .5s;
+}
+
+ul li a:hover::before {
+    width: 50%;
+    transform: translateX(100%);
 }
 

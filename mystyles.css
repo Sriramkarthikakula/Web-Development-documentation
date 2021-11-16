@@ -14,7 +14,7 @@ h1 { text-align: center;}
 }
 div { 
     border-radius: 10px;
-    background-color:rgba(0, 238, 255, 0.568);
+    background-color:white;
 }
 
 
@@ -67,4 +67,45 @@ ul li a:hover::before {
     width: 50%;
     transform: translateX(100%);
 }
+
+.container {
+    padding-left:25%;
+    position:relative;
+    width: 50%;
+  }
+  
+  .image {
+   
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0%;
+    background-color: rgb(143, 9, 9);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .7s ease;
+  }
+  
+  .container:hover .overlay {
+    width: 100%;
+    left: 15%;
+  }
+  
+  .text {
+    color:gold;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
 

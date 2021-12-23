@@ -1,3 +1,43 @@
+body {
+    text-align: center;
+    background-color: #FFCCCC;
+    
+}
+
+
+
+.closebtn {
+    padding-left: 10px;
+    color: #888;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .closebtn:hover {
+    color: #000;
+  }
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+  }
+  
+  .chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+
+  
 h2 {
     background-color:tomato;
 }
@@ -24,10 +64,7 @@ button {
       background-color:orange;
       color:green;
 }
-body{
-    text-align: center;
-    background:linear-gradient(35deg,#CCFFFF,#FFCCCC);
-}
+
 
 
 ul {
@@ -68,34 +105,6 @@ ul li a:hover::before {
     transform: translateX(100%);
 }
 
-.container {
-    padding-left:25%;
-    position:relative;
-    width: 50%;
-  }
-  
-  .image {
-   
-    width: 100%;
-    height: auto;
-  }
-  
-  .overlay {
-    position: absolute;
-    bottom: 0;
-    left: 100%;
-    right: 0%;
-    background-color: rgb(143, 9, 9);
-    overflow: hidden;
-    width: 0;
-    height: 100%;
-    transition: .7s ease;
-  }
-  
-  .container:hover .overlay {
-    width: 100%;
-    left: 15%;
-  }
   
   .text {
     color:gold;
@@ -108,4 +117,3 @@ ul li a:hover::before {
     transform: translate(-50%, -50%);
     white-space: nowrap;
   }
-

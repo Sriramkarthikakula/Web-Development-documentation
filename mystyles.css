@@ -38,15 +38,15 @@ body {
   }
 
   
-h2 {
+/* h2 {
     background-color:tomato;
-}
+} */
 
 h1 { text-align: center;}
 
 .head {
     font-family:Lobster;
-    background-color: rgba(204, 6, 253, 0.863);
+    /* background-color: rgba(204, 6, 253, 0.863); */
     border-radius: 10px;
 }
 .mar {
@@ -59,7 +59,7 @@ div {
 
 
 button { 
-      text-align: center;
+      /* text-align: center; */
       border-radius:20px;
       background-color:orange;
       color:green;
@@ -116,4 +116,9 @@ ul li a:hover::before {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     white-space: nowrap;
+  }
+
+  ol {
+    text-align: center;
+    list-style-position: inside;
   }

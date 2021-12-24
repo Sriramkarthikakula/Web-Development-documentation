@@ -1,5 +1,4 @@
 body {
-    text-align: center;
     background-color: #FFCCCC;
     
 }
@@ -38,15 +37,11 @@ body {
   }
 
   
-/* h2 {
-    background-color:tomato;
-} */
 
 h1 { text-align: center;}
 
 .head {
     font-family:Lobster;
-    /* background-color: rgba(204, 6, 253, 0.863); */
     border-radius: 10px;
 }
 .mar {
@@ -59,13 +54,10 @@ div {
 
 
 button { 
-      /* text-align: center; */
       border-radius:20px;
       background-color:orange;
       color:green;
 }
-
-
 
 ul {
     margin: 0;
@@ -118,7 +110,27 @@ ul li a:hover::before {
     white-space: nowrap;
   }
 
-  ol {
-    text-align: center;
+  div ol {
     list-style-position: inside;
+    background-color:linear-gradient(35deg,#CCFFFF,#FFCCCC);
+    position: relative;
+    animation: mymove 5s infinite;
   }
+  
+div button{
+     list-style-position: inside;
+     background-color:linear-gradient(35deg,#CCFFFF,#FFCCCC);
+     position: relative;
+     animation: mybutton 5s infinite;
+   
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 500px;}
+}
+
+@keyframes mybutton {
+  from {left: 0px;}
+  to {left: 630px;}
+  
+}
